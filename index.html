@@ -42,7 +42,16 @@
             and co-workers.
           </p>
           <form class="cta-form" action="#">
-            <input type="email" id="email" placeholder="Enter your email…" />
+            <div>
+              <input
+                type="email"
+                class="mail"
+                id="email"
+                placeholder="Enter your email…"
+              />
+              <span class="allert">Please check your email</span>
+            </div>
+
             <input type="button" class="start-btn" value="Get Started" />
           </form>
         </div>
@@ -156,8 +165,22 @@
         </div>
 
         <form class="cta-form" action="#">
-          <input type="email" id="email" placeholder="Enter your email…" />
-          <input type="button" class="start-btn" value="Get Started For Free" />
+          <div>
+            <input
+              type="email"
+              class="mail"
+              id="access-email"
+              placeholder="Enter your email…"
+            />
+            <span class="access-alert">Please check your email</span>
+          </div>
+
+          <input
+            type="button"
+            id="access-start-btn"
+            class="start-btn"
+            value="Get Started For Free"
+          />
         </form>
       </section>
     </main>
@@ -255,5 +278,6 @@
         </li>
       </ul>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
